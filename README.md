@@ -1,7 +1,7 @@
 # Project01_Knack
-An interactive python version of the card game "Knack" (also known as "Schwimmen" or "Einunddreißig")
+The first project is an interactive python version of the card game "Knack" (also known as "Schwimmen" or "Einunddreißig"). This is an approach to build a functioning game, with basic functionalities and as a sigle-player-game against the computer. 
 
-The card game "Knack" is made for two up to nine players. It's also known as "swimming"(German "Schwimmen") or "thirty-one"(French "Trente-et-un") and is a prequel to of "Seventeen and four" (which is a prequel of "Black Jack"). 
+The original card game "Knack" is made for two up to nine players. It's also known as "swimming"(German "Schwimmen") or "thirty-one"(French "Trente-et-un").
 
 ## The rules 
 
@@ -36,15 +36,19 @@ The dealer now takes a look at his first pack. If he decides to keep it he turns
 The player on the left of the dealer starts. He can either swap one card of his hand with one from the middle or all three cards. Swapping 2 cards is not possible. 
 If he doesn't want to change he can either shove for one round or close the game. To close the game he needs to have at least 20 points on his hand. 
 
+To reduce the complexity of the game flow the computer/dealer only makes random choices. 
+
 #### End of game 
 A game ends in two ways:
 
 - a player closes, says "I'll close", all the other players may swap or shove one more time. 
-- a player holds 31 points on his hand and the game ends rightaway. Scores are taken as they are from the other players
+- a player holds 31 points on his hand and the game ends rightaway. Scores are taken as they are from the other players (This still needs to be implemented)
 
 #### Scoring
 
 Only pairs or prials of the same suit or for 3 of a kind are counted. 
+
+(The scoring methods are still in progress)
 
 
 
